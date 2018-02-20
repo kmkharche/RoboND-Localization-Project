@@ -7,7 +7,7 @@
 
   <!-- Place map frame at odometry frame -->
   <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster"
-      args="0 0 0 0 0 0 map odom 1000"/>
+      args="0 0 0 0 0 0 map odom 100"/>
 
   <!-- Localization-->
   <node pkg="amcl" type="amcl" name="amcl" output="screen">
@@ -17,6 +17,7 @@
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
     <param name="transform_tolerance" value="1"/>
+	<!--<param name="use_map_topic" value="true"/>-->
     <param name="initial_pose_x" value="0"/>
     <param name="initial_pose_y" value="0"/>
     <param name="initial_pose_a" value="0"/>
