@@ -1,15 +1,17 @@
 TrajectoryPlannerROS:
 
-  max_vel_x: 2.0
-  min_vel_x: 1.0
-  max_vel_y: 2.0
-  min_vel_y: 1.0
-  max_vel_y: 1.5
-  min_vel_y: -1.5 
   holonomic_robot: false
-  yaw_goal_tolerance: 0.2
+  yaw_goal_tolerance: 0.1
   xy_goal_tolerance: 0.5
-  sim_time: 2.0
-  pdist_scale: 0.4
+  sim_time: 1.5
+  pdist_scale: 2.0
+  gdist_scale: 0.1
   meter_scoring: true
+#  heading_scoring: true
+  latch_xy_goal_tolerance: false
+  heading_lookahead: 3.0
   
+  
+#TrajectoryPlannerROS:
+
+#  holonomic_robot: false
