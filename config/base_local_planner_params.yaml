@@ -4,14 +4,7 @@ TrajectoryPlannerROS:
   yaw_goal_tolerance: 0.1
   xy_goal_tolerance: 0.5
   sim_time: 1.5
-  pdist_scale: 2.0
-  gdist_scale: 0.1
+  pdist_scale: 0.8
+  gdist_scale: 0.4
   meter_scoring: true
-#  heading_scoring: true
-  latch_xy_goal_tolerance: false
-  heading_lookahead: 3.0
-  
-  
-#TrajectoryPlannerROS:
-
-#  holonomic_robot: false
+  angular_sim_granularity: 0.01
