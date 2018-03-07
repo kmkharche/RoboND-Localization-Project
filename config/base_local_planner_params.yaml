@@ -8,3 +8,5 @@ TrajectoryPlannerROS:
   gdist_scale: 0.4
   meter_scoring: true
   angular_sim_granularity: 0.01
+  acc_lim_x: 20.0
+  acc_lim_y: 20.0
