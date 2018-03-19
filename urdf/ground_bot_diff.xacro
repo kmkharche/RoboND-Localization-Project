@@ -1,11 +1,11 @@
 <?xml version='1.0'?>
 
-<robot name="ground_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="ground_bot_diff" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find udacity_bot)/urdf/ground_bot.gazebo"/>
+<xacro:include filename="$(find udacity_bot)/urdf/ground_bot_diff.gazebo"/>
 
 	<link name="robot_footprint"></link>
-	
+		
 	<joint name="robot_footprint_joint" type="fixed">
 		<origin xyz="0 0 0" rpy="0 0 0"/>
 		<parent link="robot_footprint"/>

@@ -6,7 +6,7 @@ raytrace_range: 10.0
 transform_tolerance: 1.0
 
 #footprint: [[0.3, 0.3], [-0.3, 0.3], [-0.3, -0.3], [0.3, -0.3]]
-robot_radius: 0.3
+robot_radius: 0.35
 cost_scaling_factor: 10.0
 min_in_place_vel_theta: 0.1  
 min_vel_theta: -0.4  

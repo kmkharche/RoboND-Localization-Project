@@ -77,16 +77,31 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        robot_footprint:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        wheel3:
+        lback_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        wheel4:
+        left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rback_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        robot_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        upper_body:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -163,7 +178,7 @@ Visualization Manager:
       Axes Radius: 0.00999999978
       Class: rviz/PoseArray
       Color: 255; 25; 0
-      Enabled: false
+      Enabled: true
       Head Length: 0.0700000003
       Head Radius: 0.0299999993
       Name: PoseArray
@@ -172,7 +187,7 @@ Visualization Manager:
       Shape: Arrow (Flat)
       Topic: /particlecloud
       Unreliable: false
-      Value: false
+      Value: true
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
@@ -252,7 +267,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 11.9109545
+      Distance: 24.5788822
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1

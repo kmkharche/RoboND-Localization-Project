@@ -25,7 +25,7 @@
   output="screen" args="-urdf -param robot_description -model ground_bot"/>
 
   <!--launch rviz-->
-  <!--<node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/apeksha/udacity/src/udacity_bot/udacity_world.rviz"/>-->
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/apeksha/udacity/src/udacity_bot/udacity_world.rviz"/>
 	
   <!--launch teleop-->
   <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
